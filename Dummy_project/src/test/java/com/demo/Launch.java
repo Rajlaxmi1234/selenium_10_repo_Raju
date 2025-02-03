@@ -16,6 +16,7 @@ public void toLaunch() {
 	
 	driver.get("https://demoapp.skillrary.com/");
 	Reporter.log("WebPage successfully launched", true);
+	Reporter.log(" Successfull", true);
 	driver.quit();
 }
 }
